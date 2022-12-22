@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen(max-width: 991px)
+{
+    .banner .imgSidebar
+    {
+        display:none;
+    }
+}
