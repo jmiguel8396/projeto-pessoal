@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="imagens/bg.jpg">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">Meu Portifólio</h5>
+            <div>   
+                <h4><span>Olá</span>Eu sou</h4>
+                <h2>João Miguel Galvão</h2>
+                <h4>Eu sou Front-End em Desenvolvimento de Web site.</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta odit animi, autem accusamus optio incidunt quam corrupti, perferendis quod perspiciatis vel! Asperiores, impedit officia doloremque amet rerum repellat odio! Cumque? Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="btn">Sobre Mim</a>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="imagens/facebook.png"></a></li>
+                <li><a href="#"><img src="imagens/twitter.png"></a></li>
+                <li><a href="#"><img src="imagens/instagram.png"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="title white">
+            <h2>Sobre Nós</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </section>
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Trabalhos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+    
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle')
+            const sidebar = document.querySelector('.sidebar')
+            menuToggle.classList.toggle('active')
+            sidebar.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
