@@ -528,10 +528,12 @@ p
         margin: 10px;
     }
 
-    .contactForm
+    .contact .contactForm
     {
-        width: 100%;
-    }
+        position: relative;
+        width: 58vw;
+        margin-top: 20px;
+    } 
 
     .contactForm .row
     {
